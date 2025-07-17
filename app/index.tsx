@@ -6,7 +6,7 @@ export default function Index() {
    <SafeAreaView>
     <View>
 
-    <Text>Hello World!</Text>
+    <Text>Hello Aakash!</Text>
     <DarkMode/>
     </View>
    </SafeAreaView>
