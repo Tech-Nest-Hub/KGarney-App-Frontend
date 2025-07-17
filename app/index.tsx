@@ -16,7 +16,7 @@ export default function Index() {
     </View>
     <View className='flex-1 justify-center items-center'>
       <Text className='text-2xl font-bold'>Welcome to KTA Haru</Text>
-      <Text className='text-lg'>This is a sample app using Expo and Nativewind</Text>
+      <Text className='text-lg font-extrabold'>This is a sample app using Expo and Nativewind</Text>
     </View>
     </ScrollView>
    </SafeAreaView>
