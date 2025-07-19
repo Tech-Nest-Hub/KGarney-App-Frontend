@@ -1,11 +1,21 @@
-import '@/app/global.css';
 import AppBar from '@/components/App';
-import { SafeAreaView } from "react-native";
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Notes from './notes';
+import Profile from './profile';
+import Settings from './settings';
 
-export default function Index() {
+
+const App: React.FC = () => {
   return (
-   <SafeAreaView>
-    <AppBar />
-   </SafeAreaView>
+    <SafeAreaProvider>
+      <AppBar />
+      <Notes/>
+      <Profile/> 
+      <Settings/>
+   
+    </SafeAreaProvider>
   );
-}
+};
+
+export default App;
